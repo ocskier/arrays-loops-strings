@@ -12,7 +12,7 @@ public class MSGrades {
     public MSGrades(){
         // Add some students and their grades to the array lists
         students.add("Joe Bob");
-        students.add("Jane Doe");
+        students.add("Dorothy Jane");
 
         mathGrades.add(87);
         mathGrades.add(98);
