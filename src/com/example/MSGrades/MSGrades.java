@@ -1,4 +1,4 @@
-package main;
+package com.example.MSGrades;
 import java.util.ArrayList;
 
 public class MSGrades {
