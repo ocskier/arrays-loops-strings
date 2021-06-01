@@ -4,10 +4,10 @@ import java.util.ArrayList;
 public class MSGrades {
 
     private final String[] teachers = {"Ms. Smith", "Mr. Johnson", "Mrs. Doe"};
-    ArrayList<String> students = new ArrayList<>();
-    ArrayList<Integer> mathGrades = new ArrayList<>();
-    ArrayList<Integer> scienceGrades = new ArrayList<>();
-    ArrayList<Integer> englishGrades = new ArrayList<>();
+    private final ArrayList<String> students = new ArrayList<>();
+    private final ArrayList<Integer> mathGrades = new ArrayList<>();
+    private final ArrayList<Integer> scienceGrades = new ArrayList<>();
+    private final ArrayList<Integer> englishGrades = new ArrayList<>();
 
     public MSGrades(){
         // Add some students and their grades to the array lists
