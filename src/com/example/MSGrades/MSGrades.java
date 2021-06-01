@@ -3,11 +3,11 @@ import java.util.ArrayList;
 
 public class MSGrades {
 
-    String[] teachers = {"Ms. Smith", "Mr. Johnson", "Mrs. Doe"};
-    ArrayList<String> students = new ArrayList<String>();
-    ArrayList<Integer> mathGrades = new ArrayList<Integer>();
-    ArrayList<Integer> scienceGrades = new ArrayList<Integer>();
-    ArrayList<Integer> englishGrades = new ArrayList<Integer>();
+    private final String[] teachers = {"Ms. Smith", "Mr. Johnson", "Mrs. Doe"};
+    ArrayList<String> students = new ArrayList<>();
+    ArrayList<Integer> mathGrades = new ArrayList<>();
+    ArrayList<Integer> scienceGrades = new ArrayList<>();
+    ArrayList<Integer> englishGrades = new ArrayList<>();
 
     public MSGrades(){
         // Add some students and their grades to the array lists
@@ -39,21 +39,22 @@ public class MSGrades {
 
     public static void main(String[] args) {
         // write your code here
-        MSGrades lrmsGrade8 = new MSGrades();
+        MSGrades LRMSGrade8 = new MSGrades();
+        System.out.println();
         System.out.println("Middle School Roster");
         System.out.println("====================");
-        lrmsGrade8.printStudents();
-        System.out.println("");
+        LRMSGrade8.printStudents();
+        System.out.println();
 
-        for (int i=0; i < lrmsGrade8.teachers.length; i++){
-            String teacher = "Teacher: ".concat(lrmsGrade8.teachers[i]);
+        for (int i=0; i < LRMSGrade8.teachers.length; i++){
+            String teacher = "Teacher: ".concat(LRMSGrade8.teachers[i]);
             System.out.println(teacher);
         }
 
         System.out.println("\nStudent Grades:\n");
-        for (int i =0; i < lrmsGrade8.students.size(); i++){
-            lrmsGrade8.printStudentGrades(i);
-            System.out.println("");
+        for (int i =0; i < LRMSGrade8.students.size(); i++){
+            LRMSGrade8.printStudentGrades(i);
+            System.out.println();
         }
     }
 }
