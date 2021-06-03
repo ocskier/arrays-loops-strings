@@ -33,16 +33,19 @@ git clone URL-you-Copied-goes-here
    3. a new instance of a science grades ArrayList storing integers
    4. a new instance of a math grades ArrayList storing integers
 <br>
+
 - Inside the class constructor add some students and their grades to the ArrayLists
    1. add two students to the students ArrayList
    2. add two corresponding values to the two students to the math grades ArrayList
    3. add two corresponding values to the two students to the science grades ArrayList
    4. add two corresponding values to the two students to the english grades ArrayList
 <br>
+
 - Inside the printStudents public method
    - loop thru the students ArrayList with a For Each loop
      - print each students name on a new line as output
 <br>
+
 - Make a method that prints an individual students grades
     - It will be public, not have a return value, and have one int type parameter 
       that is a students index
@@ -53,6 +56,7 @@ git clone URL-you-Copied-goes-here
         - Do this for the next two subjects
         - Total of four output statements
 <br>
+
 - Inside the main function before the first two given output statements
   - create a new instance of MSGrades class and store in a variable
     (anything like msGrade8)
@@ -80,6 +84,7 @@ System.out.println("\nStudent Grades:\n");
   - Print a new line if you want it to look presentable
 
 <br>
+
 ## Directions for Pushing Revision to github
 - Push your changes up to your repository. From your git bash terminal, enter the following commands:
 ```bash
@@ -90,5 +95,6 @@ git push -u origin main
 - Go to your GitHub repository. You should see your changes.
 - If you want you can submit a PR to merge changes
 <br>
+
 ## If you finish early, consider adding some additional functionality. Be original, add some of your own functionality to the application.
 
