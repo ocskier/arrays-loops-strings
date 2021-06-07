@@ -31,14 +31,14 @@ git clone URL-you-Copied-goes-here
    1. a new instance of a students ArrayList storing strings
    2. a new instance of a math grades ArrayList storing integers
    3. a new instance of a science grades ArrayList storing integers
-   4. a new instance of a math grades ArrayList storing integers
+   4. a new instance of a english grades ArrayList storing integers
 <br>
 
 - Inside the class constructor add some students and their grades to the ArrayLists
    1. add two students to the students ArrayList
-   2. add two corresponding values to the two students to the math grades ArrayList
-   3. add two corresponding values to the two students to the science grades ArrayList
-   4. add two corresponding values to the two students to the english grades ArrayList
+   2. add two corresponding values for the two students to the math grades ArrayList
+   3. add two corresponding values for the two students to the science grades ArrayList
+   4. add two corresponding values for the two students to the english grades ArrayList
 <br>
 
 - Inside the printStudents public method

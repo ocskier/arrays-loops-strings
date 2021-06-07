@@ -37,12 +37,36 @@ public class MSGrades {
         System.out.println("English: " + this.englishGrades.get(studentIndex));
     }
 
+    // Bonus methods
+    public void addStudent(String name, int math, int science, int english) {
+        students.add(name);
+        mathGrades.add(math);
+        scienceGrades.add(science);
+        englishGrades.add(english);
+    }
+
+    public void removeStudent(String name) {
+        for (var i=0; i < this.students.size();i++){
+            if (name.equals(this.students.get(i))){
+                this.students.remove(i);
+                this.mathGrades.remove(i);
+                this.scienceGrades.remove(i);
+                this.englishGrades.remove(i);
+            }
+        }
+    }
+
     public static void main(String[] args) {
         // write your code here
         MSGrades LRMSGrade8 = new MSGrades();
         System.out.println();
         System.out.println("Middle School Roster");
         System.out.println("====================");
+
+        // Bonus
+        LRMSGrade8.removeStudent("Joe Bob");
+        LRMSGrade8.addStudent("Jon Jackson", 90, 95, 98);
+
         LRMSGrade8.printStudents();
         System.out.println();
 
